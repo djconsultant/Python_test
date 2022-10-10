@@ -1,0 +1,14 @@
+# install extensions below from terminal command line (Terminal > New Terminal). 
+# First activate the virtual environment & from the directory where the intall.txt file is located use the command 
+# (.venv) >  pip install -r install.txt
+
+# Common Python Extensions
+Flask==2.0.1
+Flask-WTF==0.15.1
+
+# allows Python .env file
+python-dotenv==0.20.0
+
+
+# Less Common Python Extensions
+

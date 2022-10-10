@@ -1,0 +1,24 @@
+# Everything listed in this file will not be uploaded to github
+
+# Common Files and Directories
+# .env
+/venv/
+app.db
+migrations
+
+# Less common files and Directories
+__pycache__
+*.pyc
+/.idea/
+.cache/
+.cache/*
+.local/
+.local/*
+.bash_history
+temp_*.py
+*.csv
+/DataMover/migrations/*
+/DataMover/old_migrations/*
+alembic.ini
+/DataMover/modules/config/app.db
+/DataMover/add_datamover_user.py
